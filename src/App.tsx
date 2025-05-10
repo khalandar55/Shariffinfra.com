@@ -33,7 +33,7 @@ function App() {
           <p className="text-xl text-gray-600 mb-6">MSc in Cloud Computing | Building scalable solutions</p>
           <div className="flex gap-4 flex-wrap justify-center mb-10">
             <a href="#projects" className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">View Projects</a>
-            <a href="public/Certs/Khalandar_Shariff.pdf" className="border border-blue-600 text-blue-600 px-6 py-2 rounded-full hover:bg-blue-50">Download Resume</a>
+            <a href="/Certs/Khalandar_Shariff.pdf" className="border border-blue-600 text-blue-600 px-6 py-2 rounded-full hover:bg-blue-50">Download Resume</a>
           </div>
         </section>
 
