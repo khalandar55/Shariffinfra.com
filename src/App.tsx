@@ -107,11 +107,11 @@ function App() {
               {/* IEEE Presentation */}
               <div className="bg-white rounded-lg shadow-md p-4">
                 <img
-                  src="public/Certs/IEEE_Presenter (002).png"
+                  src="/Certs/IEEE_Presenter (002).png"
                   alt="IEEE Presentation Certificate"
                   className="object-contain w-full h-64 rounded cursor-pointer"
                   onClick={() => {
-                    setModalImage("public/Certs/IEEE_Presenter (002).png");
+                    setModalImage("/Certs/IEEE_Presenter (002).png");
                     setModalAlt("IEEE Presentation Certificate");
                     setModalOpen(true);
                   }}
@@ -123,11 +123,11 @@ function App() {
               {/* IEEE Participation */}
               <div className="bg-white rounded-lg shadow-md p-4">
                 <img
-                  src="public/Certs/IEEE_Recognition.png"
+                  src="/Certs/IEEE_Recognition.png"
                   alt="IEEE Participant Certificate"
                   className="object-contain w-full h-64 rounded cursor-pointer"
                   onClick={() => {
-                    setModalImage("public/Certs/IEEE_Recognition.png");
+                    setModalImage("/Certs/IEEE_Recognition.png");
                     setModalAlt("IEEE Participant Certificate");
                     setModalOpen(true);
                   }}
@@ -142,7 +142,7 @@ function App() {
                 <p className="text-sm text-gray-500 mb-4">IEEE Xplore Digital Library</p>
                 <div className="flex flex-wrap gap-4 justify-center">
                   <a
-                    href="public/Certs/conference_latex_template_10_17_19 2.pdf"
+                    href="/Certs/conference_latex_template_10_17_19 2.pdf"
                     target="_blank"
                     className="px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700"
                   >
