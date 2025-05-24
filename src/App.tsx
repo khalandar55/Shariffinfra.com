@@ -33,7 +33,8 @@ function App() {
           <p className="text-xl text-gray-600 mb-6">MSc in Cloud Computing | Building scalable solutions</p>
           <div className="flex gap-4 flex-wrap justify-center mb-10">
             <a href="#projects" className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">View Projects</a>
-            <a href="/Certs/Khalandar_Shariff.pdf" className="border border-blue-600 text-blue-600 px-6 py-2 rounded-full hover:bg-blue-50">Download Resume</a>
+            <a href="
+            /Certs/Khalandar_Shariff.pdf" className="border border-blue-600 text-blue-600 px-6 py-2 rounded-full hover:bg-blue-50">Download Resume</a>
           </div>
         </section>
 
@@ -72,6 +73,7 @@ function App() {
             <h2 className="text-4xl font-bold mb-12">Certifications / Achievements</h2>
             <div className="flex flex-wrap justify-center gap-6">
               {[
+                "/Certs/React.png",
                 "Certs/AWS_Graduate.png",
                 "Certs/Azure.png",
                 "Certs/KHALANDER SHARIFF.png",
@@ -196,7 +198,7 @@ function App() {
         </section>
 
         <footer className="bg-gray-900 text-white text-center py-6">
-          <p>© 2024 Shariff. All rights reserved.</p>
+          <p>© 2025 Shariff. All rights reserved.</p>
         </footer>
       </div>
 
